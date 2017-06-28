@@ -1,0 +1,120 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <!-- 圆形ImageView  RoundImageView所需要的Style-->
+    <declare-styleable name="RoundImageView">
+        <attr name="border_thickness" format="dimension"/>
+        <attr name="border_inside_color" format="color"/>
+        <attr name="border_outside_color" format="color"/>
+    </declare-styleable>
+
+    <style name="AppTheme.NoActionBar.AppBarOverlay"
+           parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <!-- 用户资料layout样式 -->
+    <style name="UserInfoLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginBottom">5.0dp</item>
+        <item name="android:layout_marginLeft">-15.0dip</item>
+        <item name="android:layout_marginRight">-15.0dip</item>
+        <item name="android:paddingLeft">15.0dp</item>
+        <item name="android:paddingRight">15.0dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <!-- 用户资料左边的文本样式 -->
+    <style name="UserInfoLeftTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dip</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <!-- 用户资料右边的文本样式 -->
+    <style name="UserInfoRightTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <!-- 用户资料右边的文本样式 -->
+    <style name="UserInfoRightText2Style">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- 绿色按钮样式 -->
+    <style name="GreenButtonStyle">
+        <item name="android:background">@drawable/btn_style_green</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <!-- 红色按钮样式 -->
+    <style name="RedButtonStyle">
+        <item name="android:background">@drawable/btn_style_red</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <!-- 灰色按钮样式 -->
+    <style name="GreyButtonStyle">
+        <item name="android:background">@drawable/btn_style_grey</item>
+        <item name="android:textColor">#ff2d62c0</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+
+    <!-- 基本Dialog的样式 -->
+    <style name="BaseDialogStyle" parent="@android:style/Theme.Dialog">
+
+    </style>
+
+    <!-- 透明的Dialog -->
+    <style name="TransparentDialog" parent="BaseDialogStyle">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@color/transparent</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">false</item><!--模糊-->
+    </style>
+
+    <!-- 半透明的Dialog -->
+    <style name="TranslucenceDialog" parent="TransparentDialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">true</item><!--模糊-->
+    </style>
+</resources>

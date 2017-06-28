@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">News</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <!--App Team详情-->
+    <string name="team">TeamName：PWHL_Team</string>
+    <string name="team_info">Menber：PF、WD、HD、ZX、LL</string>
+
+    <!--article info-->
+
+    <string name="arti_title">android 对话框（Dialog）使用</string>
+    <string name="arti_abstract">参考：android 对话框（Dialog）使用：http://blog.csdn.net/u012005313/article/details/58153917#t8 之前总结了基本的关于 dia...</string>
+    <string name="title_activity_show_article"></string>
+
+
+    <!-- UserInfo -->
+    <string name="userinfo_title">我的资料</string>
+    <string name="userinfo_favorites">收藏：</string>
+    <string name="userinfo_followers">关注：</string>
+    <string name="userinfo_pass">历史：</string>
+    <string name="userinfo_join_time">加入时间：</string>
+    <string name="userinfo_area">所在地区：</string>
+    <string name="userinfo_dev_platform">开发平台：</string>
+    <string name="userinfo_expertise">专长领域：</string>
+    <string name="main_menu_logout">退出</string>
+
+</resources>
